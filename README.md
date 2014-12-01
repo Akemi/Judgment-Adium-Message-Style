@@ -1,5 +1,5 @@
 #Judgment Adium Message Style
-![alt tag](http://i6.minus.com/iwIACG7KDgxGX.png)
+![Style Preview](Judgment.AdiumMessageStyle/Contents/Resources/style-preview.png)
 
 #Image preview on hover
-![alt tag](http://i2.minus.com/ifOqiMIWxaL2e.png)
+![Image Preview](Judgment.AdiumMessageStyle/Contents/Resources/style-image-preview.png)
