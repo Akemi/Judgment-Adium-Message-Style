@@ -27,21 +27,17 @@ a:hover {
 }
 
 #preview_image {
-    width: 50vw;
-    height: 50vh;
-    max-width: 50vh;
-    max-height: 50vw;
+    width: 70vw;
+    height: 70vh;
+    max-width: 70vh;
+    max-height: 70vw;
     display: none;
     position: fixed;
     top: 0px;
     right: 0px;
     background-size: contain;
+    background-position: right top;
     background-repeat: no-repeat;
-    background-position: top center;
-}
-#preview_image > img {
-    width: 100%;
-    height: 100%;
 }
 
 .message_wrapper {
@@ -53,6 +49,10 @@ a:hover {
 }
 .message_wrapper:hover {
     background-color: rgba(45, 0, 22, 0.60) !important;
+}
+.message_wrapper > .message_content > font.spoiler:hover {
+    background-color: transparent !important;
+    color: inherit !important;
 }
 .message_wrapper.history {
     opacity: 0.5;
@@ -94,6 +94,7 @@ a:hover {
     border-style: solid;
     border-width: 0px 0px 0px 3px;
     border-color: #494949;
+    word-break: break-word;
 }
 .message_wrapper.status > .message_content {
 
